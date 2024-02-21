@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  background-color: lavenderblush;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  text-align: center;
+}
+
+.cat-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+}
+
+.cat-card h2 {
+  margin: 0;
+  color: #333;
+}
+
+.cat-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: purple;
+}
+
+.dog-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+}
+
+.dog-card h2 {
+  margin: 0;
+  color: #333;
+}
+
+.dog-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: green;
+}
